@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+	<rule name="yue">
+		<!-- data with insert -->
+		<data value="00">
+			<message value="1122">
+			<insert>1</insert>
+			</message>
+		</data>
+		<!-- data without insert -->
+		<data value="01">
+			<message value="1124"></message>
+			<message value="1140"></message>
+		</data>
+	</rule>
+	<rule name="inserts">
+		<data value="00">
+			<description>
+				<desc-en>English description</desc-en>
+				<desc-fr>French description </desc-fr>
+			</description>
+		</data>
+	</rule>
+</rules>
